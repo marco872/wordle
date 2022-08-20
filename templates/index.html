@@ -1,0 +1,33 @@
+<h1> Hello World!</h1>
+
+
+<p>This is my first webpage!!!</p>
+
+<p>My name is {{ first_name }}</p>
+
+<h3>My favorite words are :</h3>
+
+{% for word in favorite_word %}
+
+	{% if word == 15 %}
+
+		{{ word + 100 }}<br/>
+
+	{% else %}
+		{{ word }}<br/>
+	{% endif %}
+
+
+
+	{{ word }}<br/>
+
+
+{% endfor %}
+
+
+<br/><br/>
+
+
+
+{{ favorite_word.4 + 10 }}
+
